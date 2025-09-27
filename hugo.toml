@@ -1,0 +1,4 @@
+baseURL = 'https://rentfbtrailer.com/'
+languageCode = 'en-us'
+title = 'Rent Trailers in Flowery Branch, GA | RentFBTrailer.com'
+theme = 'hugo-universal-theme'
