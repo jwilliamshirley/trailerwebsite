@@ -31,21 +31,25 @@ pluralizelisttitles = false
     identifier = "menu.trailers"
     url        = "/"
     weight     = 1
+
 [[menu.main]]
     name       = "Dump Trailers"
     url        = "/dump_trailers"
     weight     = 1
     parent     = "menu.trailers"
+
 [[menu.main]]
     name       = "Car Haulers"
     url        = "/car_haulers"
     weight     = 2
     parent     = "menu.trailers"
+
 [[menu.main]]
     name       = "Utility Trailers"
     url        = "/utility"
     weight     = 3
     parent     = "menu.home"
+
 [[menu.main]]
     name       = "Features"
     identifier = "menu.features"
@@ -440,7 +444,7 @@ pluralizelisttitles = false
     disabled_logo = false
     logo_text = "Universal"
 
-    logo = "content/logo.png"
+    logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
@@ -452,43 +456,6 @@ pluralizelisttitles = false
         <strong>Great Britain</strong>
       </p>
       """
-
-[module]
-  [[module.mounts]]
-    disableWatch = false
-    lang = ''
-    source = 'content'
-    target = 'content'
-  [[module.mounts]]
-    disableWatch = false
-    lang = ''
-    source = 'data'
-    target = 'data'
-  [[module.mounts]]
-    disableWatch = false
-    lang = ''
-    source = 'layouts'
-    target = 'layouts'
-  [[module.mounts]]
-    disableWatch = false
-    lang = ''
-    source = 'i18n'
-    target = 'i18n'
-  [[module.mounts]]
-    disableWatch = false
-    lang = ''
-    source = 'archetypes'
-    target = 'archetypes'
-  [[module.mounts]]
-    disableWatch = false
-    lang = ''
-    source = 'assets'
-    target = 'assets'
-  [[module.mounts]]
-    disableWatch = false
-    lang = ''
-    source = 'static'
-    target = 'static'
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:contentbasename/"
@@ -508,26 +475,6 @@ pluralizelisttitles = false
     tags = true
     search = true
 
-[params.carouselCustomers]
-    items = 6
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
-
-[params.carouselTestimonials]
-    items = 4
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
-
-[params.carouselHomepage]
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more information take a look at the README.
-    enable = true
-    auto_play = true
-    slide_speed = 2000
-    pagination_speed = 1000
 
 [params.features]
     enable = true
