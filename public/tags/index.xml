@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rent Trailers in Flowery Branch, GA | RentFBTrailer.com</title>
-    <link>https://rentfbtrailer.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Rent Trailers in Flowery Branch, GA | RentFBTrailer.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://rentfbtrailer.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

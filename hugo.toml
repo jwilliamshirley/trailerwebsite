@@ -2,3 +2,47 @@ baseURL = 'https://rentfbtrailer.com/'
 languageCode = 'en-us'
 title = 'Rent Trailers in Flowery Branch, GA | RentFBTrailer.com'
 theme = 'hugo-universal-theme'
+[params]
+    disabled_logo = false
+    logo_text = "Flowery Branch Trailer Rentals" 
+    logo = "images/logo.png"
+    # logo_small = "content/img/logo_small.png" 
+    about_us = "<p>Contact us at 470-645-1899 to rent today.</p>"
+    contact_url = "/contact"
+    address = "Flowery Branch, GA" 
+[params.widgets]
+    search = true
+    categories = true
+    tags = true 
+[params.topbar]
+    enable = true
+    text = "<p>Contact us at 470-645-1899 to rent today.</p>"
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "hhttps://www.facebook.com/profile.php?id=61573847370055"
+    pre = "<i class='fas fa-2x fa-facebook'></i>"    
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+[[menu.main]]
+    name       = "Services"
+    url        = "/services"
+    weight     = 1
+    parent     = "menu.home"
+
+[[menu.main]]
+    name       = "FAQ"
+    url        = "/FAQ"
+    weight     = 2
+    parent     = "menu.home"
+
+[[menu.main]]
+    name       = "Contact"
+    url        = "/contact"
+    weight     = 3
+    parent     = "menu.home"
+
+copyright = "Copyright (c) 2025, Flowery Branch Trailer Rentals; all rights reserved."
